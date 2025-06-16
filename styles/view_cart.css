@@ -1,0 +1,92 @@
+/* Body and Page Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #5b84b1;
+    font-size: 28px;
+}
+
+/* Cart Container */
+.cart-container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #5b84b1;
+    color: white;
+}
+
+td img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+td:first-child img {
+    margin-right: 15px;
+}
+
+.remove-btn {
+    color: #f44336;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    text-decoration: underline;
+}
+
+/* Empty Cart Message */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Table Responsive for Mobile */
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    td {
+        padding: 10px 8px;
+    }
+
+    th {
+        white-space: nowrap;
+    }
+}
