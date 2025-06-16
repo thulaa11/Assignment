@@ -1,0 +1,48 @@
+user@pet.com
+user1234
+admin@pet.com
+admin123
+
+pet-src/  
+├── admin/  
+│   ├── dashboard.php                done        
+│   ├── manage_products.php          not  
+│   ├── manage_services.php          not  
+│   └── reports.php                  not
+├── assets/  
+│   ├── images/  
+│   └── icons/
+├── includes/  
+│   ├── db_connect.php               done
+│   ├── db_petcare.sql               half
+│   ├── footer.php                   half
+│   └── header.php                   half
+├── products/  
+│   ├── foods.php                    done
+│   └── tools.php                    done
+├── services/  
+│   ├── pet_grooming.php             not
+│   ├── pet_boarding.php             not
+│   └── pet_health.php               not
+├── styles/  
+│   ├── admin_dashboard.css 
+│   ├── login.css 
+│   ├── products.css 
+│   ├── register.css 
+│   ├── services.css 
+│   ├── user_dashboard.css 
+│   └── view_cart.css  
+├── user/  
+│   ├── add_to_cart.php             done    
+│   ├── dashboard.php               done
+│   ├── profile.php                 not 
+│   ├── remove_from_cart.php        done        
+│   └── view_cart.php               done 
+├── index.php                       not
+├── login.php                       done
+├── logout.php                      done  
+├── products.php                    not
+├── register.php                    done
+└── services.php                    not
+
+C:\xampp\htdocs\webapp\petcare\assets\images
